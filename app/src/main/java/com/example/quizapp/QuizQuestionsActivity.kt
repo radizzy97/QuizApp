@@ -3,10 +3,12 @@ package com.example.quizapp
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import java.util.*
 import kotlin.collections.ArrayList
@@ -69,7 +71,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
 
 
-   
+
     private fun setQuestion() {
 
         val question: Question =
@@ -93,6 +95,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
     }
 
 
+    @RequiresApi(Build.VERSION_CODES.JELLY_BEAN)
     private fun defaultOptionsView() {
 
         val options = ArrayList<TextView>()
