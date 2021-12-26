@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_start" type="id" />
+    <item name="tv_result" type="id" />
+    <item name="iv_trophy" type="id" />
+    <item name="tv_congratulations" type="id" />
+    <item name="tv_name" type="id" />
+    <item name="tv_score" type="id" />
+    <item name="btn_finish" type="id" />
+</resources>
